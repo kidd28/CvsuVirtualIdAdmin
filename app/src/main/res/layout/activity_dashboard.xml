@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Dashboard">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/validate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Validate Students" />
+        <Button
+            android:id="@+id/schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add schedule" />
+
+        <Button
+            android:id="@+id/Post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Announcement" />
+
+        <Button
+            android:id="@+id/studentlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Studentlist" />
+
+    </LinearLayout>
+</RelativeLayout>
